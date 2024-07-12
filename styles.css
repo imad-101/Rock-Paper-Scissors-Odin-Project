@@ -7,8 +7,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1{
-    background-color: rgb(0, 0, 213);
-    color: rgb(235, 255, 137);
+    
     line-height: 5rem;
     border: 10px solid black;
     font-size: 4rem;
@@ -19,7 +18,7 @@ h1{
 button{
     font-size: 7rem;
     margin: 3rem;
-    background-color: rgb(0, 0, 213);
+    background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 50px yellow;
     border: 5px solid black;
     cursor: pointer;
@@ -30,34 +29,32 @@ button:hover{
 }
 
 #resultDisplay{
-    background-color: blue;
-    box-shadow: 1px 1px 50px yellow;
+    background-color: rgb(251, 251, 251);
     display: inline;
     padding: 1.5rem;
     margin: 3rem;
     margin-top: 1rem;
-    border:7px solid black;
+    border:2px solid black;
     font-size: 5rem;
+    border-radius: 1rem;
 
 }
 #computerDisplay {
 
     border-radius: 1rem;
-    box-shadow: 1px 1px 50px yellow;
     font-size: 2rem;
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 1rem;
-    background-color: red;
+    background-color: rgb(255, 115, 115);
     
 }
 #playerDisplay{
 
     font-size: 2rem;
-    box-shadow: 1px 1px 50px yellow;
     border-radius: 1rem;
-    border: 5px solid black;
+    border: 2px solid black;
     padding: 1rem;
-    background-color: greenyellow;
+    background-color: rgb(224, 255, 179);
 }
 .Display-div{
     
