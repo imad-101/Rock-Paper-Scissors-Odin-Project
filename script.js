@@ -43,13 +43,13 @@ function playGame(playerChoice){
    }
 
    if( result == 'you won'){
-    resultDisplay.style.color = 'rgb(235, 255, 137)';
+    resultDisplay.style.backgroundColor = 'yellow';
    }
    else if ( result == 'you loose'){
-    resultDisplay.style.color = 'red';
+    resultDisplay.style.backgroundColor = 'red';
    }
    else if ( result == 'its a tie'){
-    resultDisplay.style.color = 'black';
+    resultDisplay.style.backgroundColor = 'white';
    }
    
 }
